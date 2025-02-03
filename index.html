@@ -32,6 +32,10 @@
 
     <!-- Main Style CSS -->
     <link rel="stylesheet" href="assets/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/b4796c35bf.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!--====== Use the minified version files listed below for better performance and remove the files listed above ======-->
     <!-- <link rel="stylesheet" href="assets/css/vendor/plugins.min.css">
@@ -79,10 +83,13 @@
 
             <!-- Header Meta Start -->
             <div class="header-meta">
+              <a href="after-login.html" class="text-white fs-6 fw-bold"
+                >Log in</a
+              >
               <div class="header-btn d-none d-xl-block">
-                <a class="btn btn-white text-primary bg-white" href="#"
-                  >Download Mobile App <i class="fa fa-arrow-down ps-2"></i
-                ></a>
+                <a class="btn btn-white text-danger" href="#"
+                  >Create an account</a
+                >
               </div>
               <!-- Header Toggle Start -->
               <div class="header-toggle d-lg-none text-white">
@@ -140,10 +147,104 @@
       </div>
       <!-- Offcanvas End -->
 
-      <!-- Choose Us Start -->
-      <div class="section techwix-choose-us-section section-padding bg-light">
+      <!-- Hero Section -->
+      <div
+        class="section techwix-hero-section-06"
+        style="background-image: url(assets/images/hero-bg.svg)"
+      >
         <div class="container">
-          <!-- Choose Us Wrap Start -->
+          <div class="row justify-content-between align-items-center">
+            <div class="col-lg-6">
+              <!-- Hero Content Start -->
+              <div class="hero-content">
+                <!-- <h3 class="sub-title aos-init aos-animate" data-aos-delay="600" data-aos="fade-up">Effortlessly Discover Your Ideal Match</h3> -->
+                <h2
+                  class="title aos-init aos-animate"
+                  data-aos="fade-up"
+                  data-aos-delay="800"
+                >
+                  Effortlessly Discover Your Ideal
+                  <span class="text-danger">Match</span>
+                </h2>
+                <p
+                  data-aos="fade-up"
+                  data-aos-delay="900"
+                  class="aos-init aos-animate"
+                >
+                  Join Jodi, where you could meet anyone, anywhere!
+                </p>
+                <div
+                  class="hero-btn aos-init aos-animate"
+                  data-aos="fade-up"
+                  data-aos-delay="1000"
+                >
+                  <a class="btn btn-4" href="about.html">Read More</a>
+                </div>
+              </div>
+              <!-- Hero Content End -->
+            </div>
+
+            <div class="col-lg-6">
+              <div class="row justify-content-end">
+                <div class="col-lg-8">
+                  <div class="card shadow border-0">
+                    <div class="card-body">
+                      <form action="">
+                        <div class="mb-3">
+                          <label for="country" class="form-label">I am a</label>
+                          <select name="" class="form-select" id="">
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                          </select>
+                        </div>
+                        <div class="mb-3">
+                          <label for="country" class="form-label"
+                            >I am looking for a</label
+                          >
+                          <select name="" class="form-select" id="">
+                            <option value="Female">Female</option>
+                            <option value="Male">Male</option>
+                          </select>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-12 px-0">
+                            <label for="country" class="form-label">Age</label>
+                          </div>
+                          <div class="mb-3 col-6 ps-0">
+                            <select name="" class="form-select" id="">
+                              <option value="25">25</option>
+                              <option value="28">28</option>
+                              <option value="30">30</option>
+                            </select>
+                          </div>
+                          <div class="mb-3 col-6 pe-0">
+                            <select name="" class="form-select" id="">
+                              <option value="35">35</option>
+                              <option value="38">38</option>
+                              <option value="40">40</option>
+                            </select>
+                          </div>
+                        </div>
+
+                        <div>
+                          <button class="btn btn-danger w-100">
+                            Let's Go <i class="fa fa-arrow-right ms-3"></i>
+                          </button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Choose Us Start -->
+      <!-- <div class="section techwix-choose-us-section section-padding bg-light">
+        <div class="container">
           <div class="choose-us-wrap">
             <div class="text-center">
               <h2 class="title">
@@ -171,13 +272,12 @@
               </div>
             </div>
           </div>
-          <!-- Choose Us Wrap End -->
         </div>
-      </div>
+      </div> -->
       <!-- Choose Us End -->
 
       <!-- Works Start -->
-      <div class="section section-padding position-relative">
+      <div class="section section-padding position-relative bg-white">
         <div class="container">
           <div class="works-section-title">
             <h2>How It Works</h2>
@@ -230,6 +330,548 @@
       </div>
       <!-- Works End -->
 
+      <div class="section section-padding bg-white">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h2 class="mb-2">Find Best Matches Based on Your Location</h2>
+              <p>
+                Discover personalized and suitable matches tailored to your
+                location. We help you find the best options nearby, ensuring
+                relevance and convenience for you.
+              </p>
+            </div>
+            <div class="col-md-6">
+              <img src="assets/images/location-match.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- safe data Section -->
+      <div class="section section-padding bg-white">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="assets/images/safe-data.svg" alt="" />
+            </div>
+            <div class="col-md-6">
+              <h2 class="mb-2">Your Data is Safe with Nepalse Jodi</h2>
+              <p>
+                Rest easy knowing your account and personal information are
+                secure. Nepalse Jodi prioritizes your privacy and never shares
+                your data with third parties.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- data control Section -->
+      <div class="section section-padding bg-white">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h2 class="mb-2">You Control Your Data</h2>
+              <p>
+                Discover personalized and suitable matches tailored to your
+                location. We help you find the best options nearby, ensuring
+                relevance and convenience for you.
+              </p>
+            </div>
+            <div class="col-md-6">
+              <img src="assets/images/data-control.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonial Section -->
+      <div class="section" style="background-color: #ff005e; padding: 100px 0">
+        <div class="container">
+          <div
+            class="row align-items-center justify-content-between text-white"
+          >
+            <!-- Title div -->
+            <div class="col-lg-4 mb-4 mb-lg-0">
+              <h2 class="fw-bold text-white pe-4">
+                What our client says about our services.
+              </h2>
+              <!-- Carousel Controls -->
+              <div class="d-flex mt-3">
+                <button
+                  class="btn btn-light me-2"
+                  type="button"
+                  data-bs-target="#testimonialCarousel"
+                  data-bs-slide="prev"
+                >
+                  <i class="fa text-danger fa-arrow-left"></i>
+                </button>
+                <button
+                  class="btn btn-light"
+                  type="button"
+                  data-bs-target="#testimonialCarousel"
+                  data-bs-slide="next"
+                >
+                  <i class="fa text-danger fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- Testimonial div -->
+            <div class="col-lg-6">
+              <div
+                id="testimonialCarousel"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <!-- Testimonial Item -->
+                  <div class="carousel-item active">
+                    <div
+                      class="testimonial-card p-4 bg-white text-dark rounded"
+                    >
+                      <p class="mb-3">
+                        <span class="fs-4 text-warning">⭐⭐⭐⭐⭐</span><br />
+                        This app is amazing! It’s secure, user-friendly, and
+                        delivers spot-on matches based on my preferences and
+                        location. Highly recommended!
+                      </p>
+                      <div class="d-flex align-items-center">
+                        <img
+                          src="assets/images/profile-1.png"
+                          class="rounded-circle me-3"
+                          alt="User"
+                        />
+                        <div>
+                          <strong>Diksha, 18</strong><br />
+                          Kathmandu, Nepal
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Testimonial Item -->
+                  <div class="carousel-item">
+                    <div
+                      class="testimonial-card p-4 bg-white text-dark rounded"
+                    >
+                      <p class="mb-3">
+                        <span class="fs-4 text-warning">⭐⭐⭐⭐⭐</span><br />
+                        I found my soulmate through this app. Amazing service,
+                        highly recommend for meaningful connections!
+                      </p>
+                      <div class="d-flex align-items-center">
+                        <img
+                          src="assets/images/profile-1.png"
+                          class="rounded-circle me-3"
+                          alt="User"
+                        />
+                        <div>
+                          <strong>Raj, 25</strong><br />
+                          Pokhara, Nepal
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Latest Users section -->
+      <div class="section bg-white" style="padding: 80px 0">
+        <div class="container">
+          <!-- Section Header -->
+          <div class="text-center mb-5">
+            <h2 class="fw-bold">Latest Users</h2>
+            <p class="text-muted">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim.
+            </p>
+          </div>
+          <!-- User Cards -->
+          <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-4">
+            <!-- Single User Card -->
+            <div class="col col-sm-6">
+              <div
+                style="background-color: #fff5f8"
+                class="card text-center border-0 shadow-sm p-3"
+              >
+                <img
+                  src="assets/images/Outline.svg"
+                  alt="User Image"
+                  class="rounded-circle mx-auto mb-3"
+                  style="width: 100px; height: 100px"
+                />
+                <h6 class="fw-bold mb-1 fs-5">Natasa</h6>
+                <p class="text-muted small mb-0">
+                  <i class="fa fa-location-dot pe-2"></i>Pokhara, Nepal
+                </p>
+              </div>
+            </div>
+            <!-- Repeat User Card -->
+            <div class="col col-sm-6">
+              <div
+                style="background-color: #fff5f8"
+                class="card text-center border-0 shadow-sm p-3"
+              >
+                <img
+                  src="assets/images/Outline (1).svg"
+                  alt="User Image"
+                  class="rounded-circle mx-auto mb-3"
+                  style="width: 100px; height: 100px"
+                />
+                <h6 class="fw-bold mb-1 fs-5">Ankita</h6>
+                <p class="text-muted small mb-0">
+                  <i class="fa fa-location-dot pe-2"></i>Pokhara, Nepal
+                </p>
+              </div>
+            </div>
+            <div class="col col-sm-6">
+              <div
+                style="background-color: #fff5f8"
+                class="card text-center border-0 shadow-sm p-3"
+              >
+                <img
+                  src="assets/images/Outline.svg"
+                  alt="User Image"
+                  class="rounded-circle mx-auto mb-3"
+                  style="width: 100px; height: 100px"
+                />
+                <h6 class="fw-bold mb-1 fs-5">Disty Kar</h6>
+                <p class="text-muted small mb-0">
+                  <i class="fa fa-location-dot pe-2"></i>Pokhara, Nepal
+                </p>
+              </div>
+            </div>
+            <div class="col col-sm-6">
+              <div
+                style="background-color: #fff5f8"
+                class="card text-center border-0 shadow-sm p-3"
+              >
+                <img
+                  src="assets/images/Outline (1).svg"
+                  alt="User Image"
+                  class="rounded-circle mx-auto mb-3"
+                  style="width: 100px; height: 100px"
+                />
+                <h6 class="fw-bold mb-1 fs-5">Mrittika</h6>
+                <p class="text-muted small mb-0">
+                  <i class="fa fa-location-dot pe-2"></i>Pokhara, Nepal
+                </p>
+              </div>
+            </div>
+            <div class="col col-sm-6">
+              <div
+                style="background-color: #fff5f8"
+                class="card text-center border-0 shadow-sm p-3"
+              >
+                <img
+                  src="assets/images/Outline.svg"
+                  alt="User Image"
+                  class="rounded-circle mx-auto mb-3"
+                  style="width: 100px; height: 100px"
+                />
+                <h6 class="fw-bold mb-1 fs-5">Natasa</h6>
+                <p class="text-muted small mb-0">
+                  <i class="fa fa-location-dot pe-2"></i>Pokhara, Nepal
+                </p>
+              </div>
+            </div>
+            <!-- Repeat User Card -->
+            <div class="col col-sm-6">
+              <div
+                style="background-color: #fff5f8"
+                class="card text-center border-0 shadow-sm p-3"
+              >
+                <img
+                  src="assets/images/Outline (1).svg"
+                  alt="User Image"
+                  class="rounded-circle mx-auto mb-3"
+                  style="width: 100px; height: 100px"
+                />
+                <h6 class="fw-bold mb-1 fs-5">Ankita</h6>
+                <p class="text-muted small mb-0">
+                  <i class="fa fa-location-dot pe-2"></i>Pokhara, Nepal
+                </p>
+              </div>
+            </div>
+            <div class="col col-sm-6">
+              <div
+                style="background-color: #fff5f8"
+                class="card text-center border-0 shadow-sm p-3"
+              >
+                <img
+                  src="assets/images/Outline.svg"
+                  alt="User Image"
+                  class="rounded-circle mx-auto mb-3"
+                  style="width: 100px; height: 100px"
+                />
+                <h6 class="fw-bold mb-1 fs-5">Disty Kar</h6>
+                <p class="text-muted small mb-0">
+                  <i class="fa fa-location-dot pe-2"></i>Pokhara, Nepal
+                </p>
+              </div>
+            </div>
+            <div class="col col-sm-6">
+              <div
+                style="background-color: #fff5f8"
+                class="card text-center border-0 shadow-sm p-3"
+              >
+                <img
+                  src="assets/images/Outline (1).svg"
+                  alt="User Image"
+                  class="rounded-circle mx-auto mb-3"
+                  style="width: 100px; height: 100px"
+                />
+                <h6 class="fw-bold mb-1 fs-5">Mrittika</h6>
+                <p class="text-muted small mb-0">
+                  <i class="fa fa-location-dot pe-2"></i>Pokhara, Nepal
+                </p>
+              </div>
+            </div>
+            <div class="col col-sm-6">
+              <div
+                style="background-color: #fff5f8"
+                class="card text-center border-0 shadow-sm p-3"
+              >
+                <img
+                  src="assets/images/Outline.svg"
+                  alt="User Image"
+                  class="rounded-circle mx-auto mb-3"
+                  style="width: 100px; height: 100px"
+                />
+                <h6 class="fw-bold mb-1 fs-5">Natasa</h6>
+                <p class="text-muted small mb-0">
+                  <i class="fa fa-location-dot pe-2"></i>Pokhara, Nepal
+                </p>
+              </div>
+            </div>
+            <!-- Repeat User Card -->
+            <div class="col col-sm-6">
+              <div
+                style="background-color: #fff5f8"
+                class="card text-center border-0 shadow-sm p-3"
+              >
+                <img
+                  src="assets/images/Outline (1).svg"
+                  alt="User Image"
+                  class="rounded-circle mx-auto mb-3"
+                  style="width: 100px; height: 100px"
+                />
+                <h6 class="fw-bold mb-1 fs-5">Ankita</h6>
+                <p class="text-muted small mb-0">
+                  <i class="fa fa-location-dot pe-2"></i>Pokhara, Nepal
+                </p>
+              </div>
+            </div>
+            <div class="col col-sm-6">
+              <div
+                style="background-color: #fff5f8"
+                class="card text-center border-0 shadow-sm p-3"
+              >
+                <img
+                  src="assets/images/Outline.svg"
+                  alt="User Image"
+                  class="rounded-circle mx-auto mb-3"
+                  style="width: 100px; height: 100px"
+                />
+                <h6 class="fw-bold mb-1 fs-5">Disty Kar</h6>
+                <p class="text-muted small mb-0">
+                  <i class="fa fa-location-dot pe-2"></i>Pokhara, Nepal
+                </p>
+              </div>
+            </div>
+            <div class="col col-sm-6">
+              <div
+                style="background-color: #fff5f8"
+                class="card text-center border-0 shadow-sm p-3"
+              >
+                <img
+                  src="assets/images/Outline (1).svg"
+                  alt="User Image"
+                  class="rounded-circle mx-auto mb-3"
+                  style="width: 100px; height: 100px"
+                />
+                <h6 class="fw-bold mb-1 fs-5">Mrittika</h6>
+                <p class="text-muted small mb-0">
+                  <i class="fa fa-location-dot pe-2"></i>Pokhara, Nepal
+                </p>
+              </div>
+            </div>
+            <div class="col col-sm-6">
+              <div
+                style="background-color: #fff5f8"
+                class="card text-center border-0 shadow-sm p-3"
+              >
+                <img
+                  src="assets/images/Outline.svg"
+                  alt="User Image"
+                  class="rounded-circle mx-auto mb-3"
+                  style="width: 100px; height: 100px"
+                />
+                <h6 class="fw-bold mb-1 fs-5">Natasa</h6>
+                <p class="text-muted small mb-0">
+                  <i class="fa fa-location-dot pe-2"></i>Pokhara, Nepal
+                </p>
+              </div>
+            </div>
+            <!-- Repeat User Card -->
+            <div class="col col-sm-6">
+              <div
+                style="background-color: #fff5f8"
+                class="card text-center border-0 shadow-sm p-3"
+              >
+                <img
+                  src="assets/images/Outline (1).svg"
+                  alt="User Image"
+                  class="rounded-circle mx-auto mb-3"
+                  style="width: 100px; height: 100px"
+                />
+                <h6 class="fw-bold mb-1 fs-5">Ankita</h6>
+                <p class="text-muted small mb-0">
+                  <i class="fa fa-location-dot pe-2"></i>Pokhara, Nepal
+                </p>
+              </div>
+            </div>
+            <div class="col col-sm-6">
+              <div
+                style="background-color: #fff5f8"
+                class="card text-center border-0 shadow-sm p-3"
+              >
+                <img
+                  src="assets/images/Outline.svg"
+                  alt="User Image"
+                  class="rounded-circle mx-auto mb-3"
+                  style="width: 100px; height: 100px"
+                />
+                <h6 class="fw-bold mb-1 fs-5">Disty Kar</h6>
+                <p class="text-muted small mb-0">
+                  <i class="fa fa-location-dot pe-2"></i>Pokhara, Nepal
+                </p>
+              </div>
+            </div>
+            <div class="col col-sm-6">
+              <div
+                style="background-color: #fff5f8"
+                class="card text-center border-0 shadow-sm p-3"
+              >
+                <img
+                  src="assets/images/Outline (1).svg"
+                  alt="User Image"
+                  class="rounded-circle mx-auto mb-3"
+                  style="width: 100px; height: 100px"
+                />
+                <h6 class="fw-bold mb-1 fs-5">Mrittika</h6>
+                <p class="text-muted small mb-0">
+                  <i class="fa fa-location-dot pe-2"></i>Pokhara, Nepal
+                </p>
+              </div>
+            </div>
+            <div class="col col-sm-6">
+              <div
+                style="background-color: #fff5f8"
+                class="card text-center border-0 shadow-sm p-3"
+              >
+                <img
+                  src="assets/images/Outline.svg"
+                  alt="User Image"
+                  class="rounded-circle mx-auto mb-3"
+                  style="width: 100px; height: 100px"
+                />
+                <h6 class="fw-bold mb-1 fs-5">Natasa</h6>
+                <p class="text-muted small mb-0">
+                  <i class="fa fa-location-dot pe-2"></i>Pokhara, Nepal
+                </p>
+              </div>
+            </div>
+            <!-- Repeat User Card -->
+            <div class="col col-sm-6">
+              <div
+                style="background-color: #fff5f8"
+                class="card text-center border-0 shadow-sm p-3"
+              >
+                <img
+                  src="assets/images/Outline (1).svg"
+                  alt="User Image"
+                  class="rounded-circle mx-auto mb-3"
+                  style="width: 100px; height: 100px"
+                />
+                <h6 class="fw-bold mb-1 fs-5">Ankita</h6>
+                <p class="text-muted small mb-0">
+                  <i class="fa fa-location-dot pe-2"></i>Pokhara, Nepal
+                </p>
+              </div>
+            </div>
+            <div class="col col-sm-6">
+              <div
+                style="background-color: #fff5f8"
+                class="card text-center border-0 shadow-sm p-3"
+              >
+                <img
+                  src="assets/images/Outline.svg"
+                  alt="User Image"
+                  class="rounded-circle mx-auto mb-3"
+                  style="width: 100px; height: 100px"
+                />
+                <h6 class="fw-bold mb-1 fs-5">Disty Kar</h6>
+                <p class="text-muted small mb-0">
+                  <i class="fa fa-location-dot pe-2"></i>Pokhara, Nepal
+                </p>
+              </div>
+            </div>
+            <div class="col col-sm-6">
+              <div
+                style="background-color: #fff5f8"
+                class="card text-center border-0 shadow-sm p-3"
+              >
+                <img
+                  src="assets/images/Outline (1).svg"
+                  alt="User Image"
+                  class="rounded-circle mx-auto mb-3"
+                  style="width: 100px; height: 100px"
+                />
+                <h6 class="fw-bold mb-1 fs-5">Mrittika</h6>
+                <p class="text-muted small mb-0">
+                  <i class="fa fa-location-dot pe-2"></i>Pokhara, Nepal
+                </p>
+              </div>
+            </div>
+            <!-- Add more cards as needed -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Call-To-Action div -->
+      <div class="section py-4" style="background-color: #5a03a3">
+        <div class="container text-white">
+          <div class="row align-items-center">
+            <div class="col-lg-4 text-center" style="margin-bottom: -95px">
+              <img
+                src="assets/images/newsletter.svg"
+                alt="Couple Image"
+                class="img-fluid rounded"
+              />
+            </div>
+            <div class="col-lg-6 mt-5 mt-lg-0">
+              <h3 class="fw-bold text-white">
+                Find your perfect soulmate on Nepalese Jodi!
+              </h3>
+              <p class="text-white-50 mt-3 text-white">
+                With tailored recommendations, endless interaction, and verified
+                profiles, Nepalese Jodi connects hearts. Dive in to discover
+                your love story in a secure and friendly environment.
+              </p>
+              <button class="btn btn-danger mt-3 px-4 py-2 fw-bold">
+                Get Started
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!-- Footer Section Start -->
       <div class="section footer-section footer-section-03 bg-white border-0">
         <!-- Footer Copyright Start -->
@@ -237,50 +879,33 @@
           <div class="container">
             <div class="footer-copyright-wrap">
               <div class="row align-items-center g-4">
-                <div class="col-xl-4 mt-0">
+                <div class="col-lg-8">
                   <!-- Footer Copyright Text Start -->
-                  <div class="copyright-text text-center">
-                    <p>Copyright © 2025 Nepalesejodi. All rights reserved.</p>
+                  <div
+                    class="d-flex align-items-center gap-lg-4 flex-column flex-lg-row"
+                  >
+                    <img src="assets/images/footer-logo.svg" alt="" />
+                    <div class="copyright-text text-center">
+                      <p>Copyright © 2025 Nepalesejodi. All rights reserved.</p>
+                    </div>
                   </div>
                   <!-- Footer Copyright Text End -->
                 </div>
-                <div class="col-xl-5 mt-0">
+                <div class="col-lg-4">
                   <ul
-                    class="d-flex align-items-center gap-2 justify-content-center flex-wrap"
+                    class="d-flex align-items-center gap-4 justify-content-center flex-wrap"
                   >
                     <li>
-                      <a href="#">About Us</a>
+                      <a href="#">Support</a>
                     </li>
-                    <li><span>-</span></li>
-                    <li>
-                      <a href="#"> Terms</a>
-                    </li>
-                    <li><span>-</span></li>
+
                     <li>
                       <a href="#"> Privacy Policy</a>
                     </li>
-                    <li><span>-</span></li>
                     <li>
-                      <a href="#"> Contact</a>
-                    </li>
-                    <li><span>-</span></li>
-                    <li>
-                      <a href="#"> FAQs</a>
+                      <a href="#"> Terms and Conditions</a>
                     </li>
                   </ul>
-                </div>
-                <div class="col-xl-3 mt-0">
-                  <div
-                    class="d-flex align-items-center justify-content-xl-around gap-5 justify-content-center"
-                  >
-                    <p><i class="fa fa-globe me-2"></i> English</p>
-
-                    <div class="d-flex align-items-center gap-3">
-                      <img src="assets/images/facebook.png" alt="" />
-                      <img src="assets/images/twitter.png" alt="" />
-                      <img src="assets/images/instagram.png" alt="" />
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
@@ -327,6 +952,4 @@
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
   </body>
-
-  <!-- Mirrored from thepixelcurve.com/html/techwix/techwix/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 23 Jan 2025 13:26:32 GMT -->
 </html>

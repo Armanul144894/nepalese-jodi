@@ -100,7 +100,7 @@ h1 {
 }
 
 h2 {
-  font-size: 60px;
+  font-size: 50px;
   line-height: 130%;
 }
 
@@ -218,8 +218,8 @@ textarea:-ms-input-placeholder {
 
 /*--Section Spacing--*/
 .section-padding {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 60px;
+  padding-bottom: 20px;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -1227,13 +1227,19 @@ textarea:-ms-input-placeholder {
     top: 56px !important;
   }
 }
-
+@media only screen and (max-width: 449px) {
+  .dropdown-cart.notification-section.notifications-card {
+    left: 0 !important;
+    transform: translateX(-20%) !important;
+  }
+}
 @media only screen and (max-width: 449px) {
   .dropdown-cart {
     left: 0 !important;
-    transform: translateX(-72%) !important;
+    transform: translateX(-50%) !important;
   }
 }
+
 
 .dropdown-cart .cart-items {
   height: 280px;
@@ -2906,11 +2912,17 @@ textarea:-ms-input-placeholder {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding-top: 130px;
+  padding: 200px 0;
+  background-color: rgba(245, 235, 255, 0)
+}
+
+.techwix-hero-section-06 .hero-content{
+  background-color: rgba(245, 235, 255, 0)
 }
 
 .techwix-hero-section-06 .hero-images {
   padding-top: 105px;
+  opacity: .5;
   position: relative;
   z-index: 1;
 }
@@ -2925,7 +2937,7 @@ textarea:-ms-input-placeholder {
 }
 
 .techwix-hero-section-06 .hero-content {
-  padding-top: 170px;
+  /* padding-top: 170px; */
 }
 
 .techwix-hero-section-06 .hero-content .sub-title {
@@ -5636,6 +5648,15 @@ textarea:-ms-input-placeholder {
   line-height: 38px;
   padding: 0 15px;
   background: rgba(32, 25, 19, 0.4);
+}
+
+.single-case-study .case-study-img .bottom-meta {
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+  padding: 7px 8px;
+  border-radius: 50%;
+  background: white;
 }
 
 .single-case-study .case-study-content {
@@ -10736,6 +10757,154 @@ textarea:-ms-input-placeholder {
   filter: invert(32%) sepia(70%) saturate(653%) hue-rotate(342deg)
     brightness(93%) contrast(91%);
 }
+
+
+/* Chat css */
+.chat-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+/* .chat-header img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin-right: 10px;
+} */
+.chat-header .status {
+  color: #28a745;
+  font-size: 12px;
+}
+.chat-bubble {
+  max-width: 70%;
+  padding: 10px 15px;
+  border-radius: 16px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.chat-bubble.sent {
+  background-color: #6c63ff;
+  color: #fff;
+  margin-left: auto;
+  text-align: right;
+}
+.chat-bubble.received {
+  background-color: #f1f1f1;
+  color: #333;
+}
+.chat-time {
+  font-size: 12px;
+  color: #999;
+}
+.media-bubble {
+  max-width: 70%;
+  margin-bottom: 10px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+.media-bubble img {
+  width: 100%;
+  border-radius: 16px;
+}
+.chat-footer {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #e0e0e0;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+.chat-footer input {
+  flex: 1;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  padding: 10px 15px;
+  background: #f1f1f1;
+  margin-right: 10px;
+}
+.chat-footer button {
+  background: #6c63ff;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50%;
+}
+.chat-footer button:hover {
+  background: #574ecf;
+}
+
+
+/* purchaseModal css */
+.selection-box {
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.selection-box.active {
+  border-color: #e63946;
+  background: rgba(230, 57, 70, 0.1);
+}
+.badge-discount {
+  font-size: 12px;
+  background: #e63946;
+  color: white;
+  padding: 3px 6px;
+  border-radius: 5px;
+}
+.btn-purchase {
+  width: 100%;
+  background: #5c1ed7;
+  color: white;
+  font-weight: bold;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+
+/* Profile dropdown  */
+.profile-image-container {
+  position: relative;
+  width: 150px; /* Adjust size as needed */
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%; /* Circular shape */
+}
+
+.dropdown-profile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.edit-icon-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  border-radius: 50%;
+  opacity: 0; /* Hidden by default */
+  transition: opacity 0.3s ease;
+}
+
+.profile-image-container:hover .edit-icon-overlay {
+  opacity: 1; /* Show on hover */
+}
+
+.edit-icon-overlay i {
+  font-size: 24px; /* Icon size */
+}
+
 
 .row {
   margin: 0 !important;
