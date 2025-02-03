@@ -45,12 +45,12 @@
   <body>
     <div class="main-wrapper">
       <!-- Preloader start -->
-      <div id="preloader">
+      <!-- <div id="preloader">
         <div class="preloader">
           <span></span>
           <span></span>
         </div>
-      </div>
+      </div> -->
       <!-- Preloader End -->
 
       <!-- Header Start  -->
@@ -64,7 +64,7 @@
               /></a>
             </div>
             <!-- Header Meta Start -->
-            <div class="header-meta gap-2">
+            <div class="header-meta gap-0 gap-md-2">
               <!-- Header Massage Start -->
               <div class="header-cart dropdown">
                 <button class="cart-btn" data-bs-toggle="dropdown">
@@ -72,7 +72,7 @@
                 </button>
                 <!-- Header Dropdown Cart Start -->
                 <div
-                  class="dropdown-menu dropdown-cart notifications-card overflow-auto"
+                  class="dropdown-menu dropdown-cart message-dropdown notifications-card"
                 >
                   <div>
                     <h3 class="mb-2">Messages</h3>
@@ -173,7 +173,9 @@
                 <!-- Header Dropdown Cart Start -->
 
                 <!-- Header Dropdown Cart Start -->
-                <div class="dropdown-menu dropdown-cart notifications-card">
+                <div
+                  class="dropdown-menu dropdown-cart notification-dropdown notifications-card"
+                >
                   <!-- Dropdown Cart Items Start -->
                   <div class="">
                     <div
@@ -1523,7 +1525,10 @@
                 </div>
               </div>
               <div class="user-profile-card">
-                <a href="user-profile.html" class="d-flex flex-wrap flex-md-nowrap">
+                <a
+                  href="user-profile.html"
+                  class="d-flex flex-wrap flex-md-nowrap"
+                >
                   <img
                     src="assets/images/Frame 162379.png"
                     alt="Profile"
